@@ -32,10 +32,10 @@ npm run zip
 -   React https://reactjs.org/docs
 -   Mozilla Documentation for WebExtensions https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
 -   Mozilla Documentation for Server Sent Events https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events
+-   Server side inspiration https://www.digitalocean.com/community/tutorials/nodejs-server-sent-events-build-realtime-app
 
 ## Maintainer
 
 | [![twitter/mikescops](https://avatars0.githubusercontent.com/u/4266283?s=100&v=4)](https://pixelswap.fr 'Personal Website') |
 | --------------------------------------------------------------------------------------------------------------------------- |
-
-| [Corentin Mors](https://pixelswap.fr/)
+| [Corentin Mors](https://pixelswap.fr/)                                                                                      |
