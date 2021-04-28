@@ -12,7 +12,7 @@ app.get('/status', (request, response) => response.json({ clients: clients.lengt
 const PORT = 3000;
 
 let clients = [];
-let facts = [];
+let facts = [{ info: 'Hello world' }];
 
 app.listen(PORT, () => {
     console.log(`Facts Events service listening at http://localhost:${PORT}`);

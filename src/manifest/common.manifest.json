@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "version": "1.4.1",
     "name": "Server Sent Events in Extension - Playground",
     "short_name": "SSE Ext Playground",
@@ -8,7 +8,13 @@
         "128": "assets/icons/icon128.png"
     },
     "web_accessible_resources": [
-        "assets/*"
+        {
+            "resources": [
+                "assets/*"
+            ],
+            "matches": [],
+            "extension_ids": []
+        }
     ],
     "permissions": []
 }

@@ -15,7 +15,7 @@ module.exports = {
             popup: {
                 entry: 'popup',
                 webext: {
-                    type: 'browser_action'
+                    type: 'action'
                 }
             }
         }
@@ -31,7 +31,6 @@ module.exports = {
             patterns: [{ context: 'assets', from: '**/*', to: 'assets', toType: 'dir' }]
         }),
         webext({
-            polyfill: true,
             manifest: 'src/manifest',
             minify: {
                 // Javascript minification occurs only in production by default.
